@@ -1,0 +1,48 @@
+https://ps-react-curriculum.herokuapp.com/308/4/lesson
+
+// Using a Class/Constructor Function (less common syntax)
+let nums = new Array(2, 4, 18);
+let nums = Array(2, 4, 18);
+
+// Using Array Literal syntax (recommended best practice)
+let nums = [2, 4, 18];
+
+// Adding, Removing, and Combining Elements
+concat()       // Combines two or more arrays and returns a new array.
+join()         // Joins all array elements into a string with a specified separator.
+push()         // Adds elements to the end of the array.
+pop()          // Removes and returns the last element.
+shift()        // Removes and returns the first element.
+unshift()      // Adds elements to the beginning of the array.
+splice()       // Adds/removes elements at specific index and returns removed items.
+flat()         // Flattens nested arrays into a single array.
+slice()        // Returns a shallow copy of a portion of an array.
+
+// Accessing Elements
+at()           // Returns element at a specific index (supports negative indexing).
+indexOf()      // Returns first index of a value, or -1 if not found.
+lastIndexOf()  // Returns last index of a value, or -1 if not found.
+
+// Searching and Finding
+find()         // Returns the first element that matches a condition.
+findLast()     // Returns the last element that matches a condition.
+findIndexOf()  // Returns the index of the first matching element.
+findLastIndex()// Returns the index of the last matching element.
+
+// Looping and Iterating
+forEach()      // Executes a function once for each element (no return value).
+map()          // Creates a new array by applying a function to each element.
+flatMap()      // Maps and flattens the result into a new array.
+
+// Filtering and Testing
+filter()       // Creates a new array with elements that pass a test.
+every()        // Checks if all elements meet a condition (returns true/false).
+some()         // Checks if at least one element meets a condition (returns true/false).
+
+// Sorting and Reversing
+reverse()      // Reverses the array in place.
+sort()         // Sorts elements in place (default is lexicographic sort).
+
+// Reducing Arrays
+reduce()       // Reduces array to a single value (left to right).
+reduceRight()  // Reduces array to a single value (right to left).
